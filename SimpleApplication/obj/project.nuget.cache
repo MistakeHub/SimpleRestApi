@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yBnqVJf9hMv55KcTQFYRkCllxjWhcKYc0EEBlV3AaTZkZkFxZ3vjnKNkHo+5n/lAm5SmEeo2UVlPbX791y3GmA==",
+  "success": true,
+  "projectFilePath": "D:\\source\\repos\\SimpleRestAPI\\SimpleApplication\\SimpleApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Metri\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Metri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Metri\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Metri\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Metri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Metri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
