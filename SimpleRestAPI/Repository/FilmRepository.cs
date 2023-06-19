@@ -24,6 +24,7 @@ namespace SimpleRestAPI.Repository
             int id = _films.Count;
 
             film.Id = id;
+
             _films.Add(film);
 
             return _films.Any(v => v.Id == id);
@@ -33,11 +34,13 @@ namespace SimpleRestAPI.Repository
         public bool RemoveFilm(int id)
         {
             Film film = _films.FirstOrDefault(v => v.Id == id);
+
             if (film!=null)
             {
                 _films.Remove(film);
                 return !_films.Any(v => v.Id == id);
             }
+
             return false;
         }
 
@@ -45,10 +48,12 @@ namespace SimpleRestAPI.Repository
         public bool UpdateFilm(Film film)
         {
             int updatefilm = _films.FindIndex(v => v.Id == film.Id);
+
             if (updatefilm !=-1) {
                 _films[updatefilm] = film;
                 return true;
             }
+
             return false;
         }
     }
